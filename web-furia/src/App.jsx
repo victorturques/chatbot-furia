@@ -41,7 +41,7 @@ const App = () => {
 
     try {
       // Envia a mensagem para o backend e obtém a resposta
-      const response = await axios.post('http://localhost:5000/api/chat', { message });
+      const response = await axios.post('/api/chat', { message });
       const botMessage = { sender: 'bot', text: response.data.reply };
       // Adiciona a resposta do bot ao chat
       setChat((prevChat) => [...prevChat, botMessage]);
