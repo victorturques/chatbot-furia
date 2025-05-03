@@ -104,3 +104,4 @@ Bem-vindo ao **Chatbot FURIA**, um projeto desenvolvido para fornecer informaç�
 
 - Desenvolvido por [Victor Turques]
 - Inspirado no time de eSports **FURIA** 🐾
+
