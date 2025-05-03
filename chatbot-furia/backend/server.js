@@ -1,7 +1,7 @@
 const express = require('express'); // Importa o Express
 const cors = require('cors');
 const app = express(); // Inicializa o servidor Express
-const PORT = process.env.PORT || 5000; // Define a porta do servidor
+const PORT = 5000; // Define a porta do servidor
 
 app.use(cors());
 app.use(express.json()); // Middleware para processar JSON no corpo da requisição
